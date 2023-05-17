@@ -1,0 +1,19 @@
+/* Created by: Julien Lamoureux
+* Created on: May 2023
+* This CSS file defines the style for index.html
+* Unit5-03-PHP-Factorial
+*/
+
+body {
+  background-color: #ebfff5;
+}
+
+h3 {
+  background-color: #a3ffbf;
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  color: #000;
+}
