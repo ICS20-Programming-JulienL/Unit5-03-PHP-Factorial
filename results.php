@@ -16,11 +16,9 @@
 if (($userInteger == "") || ($userInteger < 0)) {
      $numbers = "Please enter a positive integer.";
 }
-
   // otherwise, use a do...while loop to calculate the factorial of userInteger
 else {
     do {
-
        // calculate the factorial by multiplying the factorial variable by the counter plus one
         $factorial = $factorial*($counter+1);
 
@@ -28,10 +26,9 @@ else {
         $counter = $counter + 1;
      } while ($counter < $userInteger);
 
-    // define the numbers statement
+  // define the numbers statement
     $numbers = $userInteger . "! = " . $factorial;
   }
   
-  // display the factorial
+// display the factorial
   echo $numbers;
-?>
