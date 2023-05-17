@@ -36,7 +36,7 @@
       <!--User Input-->
       <?php echo "<h3>Please enter the following:</h3>" ?>
       <form action="./results.php" method="post" target="result">
-        <label for="first-int">Enter your first integer</label>
+        <label for="first-int">Enter a postive integer:</label>
           <input type="number" id="first-int" step="1" placeholder="Eg. 4" name="first-int">
            <br><br>
         <input type="submit" value="Calculate Product"><br><br>	
@@ -59,7 +59,7 @@
     // if userInteger is equal to an empty string or is less than 0, ask them to enter a positive integer
     if (($userInteger == "") || ($userInteger < 0)) {
         $numbers = "Please enter a positive integer.";
-    }else {
+    } else {
       // otherwise, use a do...while loop to calculate the factorial of userInteger
         do {
             // calculate the factorial by multiplying the factorial variable by the counter plus one
